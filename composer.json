@@ -1,13 +1,13 @@
 {
-    "name": "fitztrev/laravel-html-minify",
+    "name": "megaads-vn/laravel-minify-html",
     "description": "Minifies the HTML output of Laravel 4 applications",
     "keywords": ["laravel", "l4", "html", "optimization", "performance", "compress", "minify", "minifier", "blade"],
-    "homepage": "https://github.com/fitztrev/laravel-html-minify",
+    "homepage": "https://github.com/megaads-vn/laravel-minify-html",
     "license": "MIT",
     "authors": [
         {
-            "name": "Trevor Fitzgerald",
-            "email": "fitztrev@gmail.com"
+            "name": "Mega Ads",
+            "email": "info@megaads.vn"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Fitztrev\\LaravelHtmlMinify": "src/"
+            "MegaAds\\LaravelHtmlMinify": "src/"
         }
     }
 }
