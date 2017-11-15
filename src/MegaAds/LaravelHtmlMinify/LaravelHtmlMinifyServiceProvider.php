@@ -19,7 +19,7 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('megaads-vn/laravel-html-minify');
+        $this->package('megaads-v/laravel-html-minify');
     }
 
     /**
