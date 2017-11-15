@@ -19,7 +19,7 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('fitztrev/laravel-html-minify');
+        $this->package('magaads-vn/laravel-html-minify');
     }
 
     /**
