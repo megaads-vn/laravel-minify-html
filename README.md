@@ -10,8 +10,12 @@ Other scripts that I've seen will compress the HTML output on-the-fly for each r
 
 ## Installation
 
-1. Add `"megaads-vn/laravel-minify-html": "dev-master"` to **composer.json**.
+1. Add `"megaads-vn/laravel-minify-html":  "1.*"` to **composer.json**.
 2. Run `composer update`
+```
+    Or can using command composer require fitztrev/laravel-html-minify
+    
+```
 3. Add `MegaAds\LaravelHtmlMinify\LaravelHtmlMinifyServiceProvider` to the list of providers in **app/config/app.php**.
 4. **Important:** You won't see any changes until you edit your `*.blade.php` template files. Once Laravel detects a change, it will recompile them, which is when this package will go to work. To force all views to be recompiled, just run this command: `find . -name "*.blade.php" -exec touch {} \;`
 
