@@ -1,4 +1,4 @@
-<?php namespace Fitztrev\LaravelHtmlMinify;
+<?php namespace MegaAds\LaravelHtmlMinify;
 
 use Illuminate\View\Compilers\BladeCompiler;
 

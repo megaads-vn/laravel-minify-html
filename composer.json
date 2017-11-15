@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Fitztrev\\LaravelHtmlMinify": "src/"
+            "MegaAds\\LaravelHtmlMinify": "src/"
         }
     }
 }
