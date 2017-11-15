@@ -22,7 +22,7 @@ Other scripts that I've seen will compress the HTML output on-the-fly for each r
 
 Optionally, you can choose to customize how the minifier functions for different environments. Publish the configuration file and edit accordingly.
 
-    $ php artisan config:publish megaads-vn/laravel-html-minify
+    $ php artisan config:publish megaads-vn/laravel-minify-html
 
 ### Options
 
