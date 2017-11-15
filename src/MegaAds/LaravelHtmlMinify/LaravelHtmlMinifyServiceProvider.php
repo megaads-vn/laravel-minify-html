@@ -19,7 +19,7 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('megaads-vn/laravel-html-minify');
+        $this->package('megaads-vn/laravel-minify-html');
     }
 
     /**
@@ -35,7 +35,7 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
             function () use ($app) {
                     $cachePath = storage_path() . '/views';
                     $compiler  = new LaravelHtmlMinifyCompiler(
-                        $app->make('config')->get('laravel-html-minify::config'),
+                        $app->make('config')->get('laravel-minify-html::config'),
                         $app['files'],
                         $cachePath
                     );
