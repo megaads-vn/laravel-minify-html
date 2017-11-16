@@ -30,8 +30,8 @@ Optionally, you can choose to customize how the minifier functions for different
 
 If you are using a javascript framework that conflicts with Blade's tags, you can change them.
 
-- **`blade.contentTags`** - *array*, default `{{` and `}}`
-- **`blade.escapedContentTags`** - *array*, default `{{{` and `}}}`
+- **`blade.contentTags`** - *array*, default `[[]]` and `]]`
+- **`blade.escapedContentTags`** - *array*, default `[[[` and `]]]`
 
 #### Skipping minification
 
